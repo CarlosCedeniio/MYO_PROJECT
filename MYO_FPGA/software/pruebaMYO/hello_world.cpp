@@ -1,0 +1,755 @@
+
+#include <bits/stdc++.h>
+
+#include <string>
+#include <vector>
+#include <sstream> //istringstream
+#include <iostream> // cout
+#include <fstream> // ifstream
+#include "altera_avalon_uart_regs.h"
+#include "system.h"
+#include <stdio.h>
+using namespace std;
+
+struct Point
+{
+    int val;     // Group of point
+    //double s1_s, s2_s,s3_s,s4_s,s5_s,s6_s,s7_s,s8_s;
+    //double s1_p, s2_p,s3_p,s4_p,s5_p,s6_p,s7_p,s8_p;
+    //double s1_m, s2_m,s3_m,s4_m,s5_m,s6_m,s7_m,s8_m;
+    double s1_r, s2_r,s3_r,s4_r,s5_r,s6_r,s7_r,s8_r;// Co-ordinate of point
+    double distance; // Distance from test point
+};
+
+void delay(int a){
+	volatile int i = 0;
+	while (i<a*100000){
+		i++;
+	}
+}
+
+vector<vector<double>> parse2DCsvFile(string dataset) {
+
+    vector<vector<double> > data;
+    //ifstream inputFile(inputFileName);
+    /*string t = R"(0;0;0;4.47214;0;0;0;3.58608;0;0;0;3.46073;0;0;0;5.34977;0;0;0;11.3119;0;0;0;6.90314;0;0;0;7.95445;0;0;0;9.76917;0
+0;0;0;4.87682;0;0;0;3.18643;0;0;0;2.98161;0;0;0;4.26458;0;0;0;9.75466;0;0;0;7.05479;0;0;0;8.08517;0;0;0;9.23111;0
+0;0;0;3.64143;0;0;0;3.19583;0;0;0;3.11716;0;0;0;4.99667;0;0;0;11.5921;0;0;0;8.31364;0;0;0;9.26769;0;0;0;8.89082;0
+0;0;0;4.21268;0;0;0;3.36105;0;0;0;3.38723;0;0;0;5.24944;0;0;0;11.2973;0;0;0;8.20691;0;0;0;10.1423;0;0;0;9.75807;0
+0;0;0;5.01797;0;0;0;3.19687;0;0;0;2.96086;0;0;0;5.42648;0;0;0;11.7493;0;0;0;9.2835;0;0;0;11.6106;0;0;0;9.00148;0
+0;0;0;5.22781;0;0;0;3.06159;0;0;0;2.93485;0;0;0;4.58585;0;0;0;8.69061;0;0;0;7.87845;0;0;0;9.76797;0;0;0;10.0664;0
+0;0;0;4.94267;0;0;0;3.04302;0;0;0;3.21507;0;0;0;5.6962;0;0;0;12.5143;0;0;0;9.69347;0;0;0;8.29699;0;0;0;9.68263;0
+0;0;0;4.47698;0;0;0;2.62615;0;0;0;3.08275;0;0;0;5.21312;0;0;0;13.0393;0;0;0;10.0225;0;0;0;10.671;0;0;0;9.63535;0
+0;0;0;4.99767;0;0;0;2.40555;0;0;0;2.47049;0;0;0;3.85746;0;0;0;8.33667;0;0;0;5.73469;0;0;0;8.76679;0;0;0;10.8071;0
+0;0;0;4.32628;0;0;0;2.36291;0;0;0;2.72947;0;0;0;4.72123;0;0;0;10.258;0;0;0;6.88719;0;0;0;9.36554;0;0;0;10.0808;0
+0;0;0;1.9883;0;0;0;3.0654;0;0;0;5.08789;0;0;0;4.9;0;0;0;6.13677;0;0;0;19.7486;0;0;0;8.228;0;0;0;2.43447;1
+0;0;0;1.96638;0;0;0;2.95296;0;0;0;4.35354;0;0;0;4.5111;0;0;0;6.0575;0;0;0;19.263;0;0;0;8.52193;0;0;0;2.64701;1
+0;0;0;1.96129;0;0;0;2.65079;0;0;0;4.75254;0;0;0;4.89183;0;0;0;5.1714;0;0;0;16.432;0;0;0;9.18677;0;0;0;2.8349;1
+0;0;0;1.84842;0;0;0;2.63186;0;0;0;4.45533;0;0;0;4.1829;0;0;0;5.14976;0;0;0;17.2597;0;0;0;7.06847;0;0;0;2.16564;1
+0;0;0;1.927;0;0;0;2.74044;0;0;0;4.69077;0;0;0;4.43283;0;0;0;4.93187;0;0;0;16.1828;0;0;0;8.50608;0;0;0;2.4454;1
+0;0;0;2.04695;0;0;0;3.29191;0;0;0;4.83184;0;0;0;4.79166;0;0;0;5.80431;0;0;0;17.7738;0;0;0;7.91539;0;0;0;2.46441;1
+0;0;0;1.77012;0;0;0;2.64827;0;0;0;4.63968;0;0;0;3.92853;0;0;0;5.23991;0;0;0;19.747;0;0;0;6.81518;0;0;0;2.46982;1
+0;0;0;2.11975;0;0;0;2.94109;0;0;0;5.63146;0;0;0;4.4441;0;0;0;5.69825;0;0;0;19.4935;0;0;0;7.32826;0;0;0;2.68266;1
+0;0;0;2.09762;0;0;0;3.30505;0;0;0;6.05365;0;0;0;5.59345;0;0;0;6.02495;0;0;0;19.6199;0;0;0;8.61916;0;0;0;2.64638;1
+0;0;0;1.86369;0;0;0;2.78867;0;0;0;5.90198;0;0;0;5.12738;0;0;0;5.91467;0;0;0;20.2799;0;0;0;8.02372;0;0;0;2.3523;1
+0;0;0;5.83067;0;0;0;14.8554;0;0;0;13.6291;0;0;0;7.71427;0;0;0;12.1986;0;0;0;18.8474;0;0;0;34.5802;0;0;0;8.53874;2
+0;0;0;5.95679;0;0;0;15.4045;0;0;0;14.6524;0;0;0;8.74681;0;0;0;14.9783;0;0;0;21.0791;0;0;0;30.5737;0;0;0;7.88437;2
+0;0;0;5.56746;0;0;0;13.8699;0;0;0;13.2632;0;0;0;8.52271;0;0;0;14.8578;0;0;0;23.3062;0;0;0;34.9896;0;0;0;9.09487;2
+0;0;0;6.08824;0;0;0;14.0832;0;0;0;17.952;0;0;0;10.2184;0;0;0;15.9794;0;0;0;21.0961;0;0;0;29.376;0;0;0;8.35923;2
+0;0;0;5.59136;0;0;0;13.6058;0;0;0;14.7179;0;0;0;8.29156;0;0;0;13.9412;0;0;0;19.0091;0;0;0;31.9244;0;0;0;8.73537;2
+0;0;0;5.11338;0;0;0;10.6543;0;0;0;12.5168;0;0;0;7.73542;0;0;0;12.8225;0;0;0;15.38;0;0;0;21.5303;0;0;0;6.90531;2
+0;0;0;4.25793;0;0;0;9.90219;0;0;0;9.65091;0;0;0;6.33193;0;0;0;11.5947;0;0;0;13.4884;0;0;0;21.2024;0;0;0;5.63856;2
+0;0;0;4.8346;0;0;0;10.9493;0;0;0;10.8734;0;0;0;8.65159;0;0;0;14.1733;0;0;0;16.8575;0;0;0;21.0456;0;0;0;6.28252;2
+0;0;0;4.03485;0;0;0;9.41063;0;0;0;10.4144;0;0;0;6.907;0;0;0;11.7304;0;0;0;16.4015;0;0;0;21.6493;0;0;0;5.76744;2
+0;0;0;4.77249;0;0;0;10.392;0;0;0;13.1015;0;0;0;7.90148;0;0;0;12.3804;0;0;0;14.6884;0;0;0;22.5628;0;0;0;6.49949;2
+0;0;0;13.2149;0;0;0;6.79191;0;0;0;4.27317;0;0;0;5.05701;0;0;0;12.1658;0;0;0;29.326;0;0;0;28.9018;0;0;0;17.4859;3
+0;0;0;11.6626;0;0;0;6.44877;0;0;0;4.30968;0;0;0;5.37835;0;0;0;14.146;0;0;0;28.7768;0;0;0;24.1688;0;0;0;13.2822;3
+0;0;0;12.2179;0;0;0;5.74804;0;0;0;3.65468;0;0;0;4.6961;0;0;0;13.5305;0;0;0;29.0106;0;0;0;25.5041;0;0;0;13.9766;3
+0;0;0;12.7936;0;0;0;5.67656;0;0;0;4.39166;0;0;0;4.96353;0;0;0;14.1118;0;0;0;32.3325;0;0;0;26.7372;0;0;0;15.1197;3
+0;0;0;11.6136;0;0;0;4.94368;0;0;0;3.3892;0;0;0;4.73674;0;0;0;12.39;0;0;0;27.4032;0;0;0;24.2308;0;0;0;15.1507;3
+0;0;0;13.4542;0;0;0;8.89476;0;0;0;10.7236;0;0;0;8.71569;0;0;0;23.3989;0;0;0;40.4113;0;0;0;47.0608;0;0;0;27.9551;3
+0;0;0;11.5094;0;0;0;7.29429;0;0;0;10.7149;0;0;0;7.77432;0;0;0;15.9297;0;0;0;36.0032;0;0;0;36.3002;0;0;0;21.1429;3
+0;0;0;12.9039;0;0;0;6.83301;0;0;0;8.14964;0;0;0;7.09319;0;0;0;17.7129;0;0;0;32.872;0;0;0;27.4102;0;0;0;15.3281;3
+0;0;0;12.1029;0;0;0;7.62627;0;0;0;10.79;0;0;0;7.69307;0;0;0;17.6761;0;0;0;32.007;0;0;0;29.4686;0;0;0;17.5998;3
+0;0;0;11.8568;0;0;0;7.0673;0;0;0;10.1802;0;0;0;7.13255;0;0;0;16.3276;0;0;0;31.2865;0;0;0;38.1998;0;0;0;25.5693;3
+0;0;0;30.0585;0;0;0;29.7035;0;0;0;21.3367;0;0;0;8.27607;0;0;0;6.50922;0;0;0;9.50421;0;0;0;11.3588;0;0;0;15.0913;4
+0;0;0;29.7874;0;0;0;29.8924;0;0;0;22.2831;0;0;0;7.9097;0;0;0;5.88246;0;0;0;9.43045;0;0;0;9.17424;0;0;0;13.882;4
+0;0;0;28.7766;0;0;0;29.6852;0;0;0;19.7324;0;0;0;7.78139;0;0;0;5.94615;0;0;0;9.79524;0;0;0;11.5858;0;0;0;15.1355;4
+0;0;0;36.6909;0;0;0;33.8603;0;0;0;23.0433;0;0;0;8.03513;0;0;0;5.74862;0;0;0;8.47683;0;0;0;13.2381;0;0;0;16.221;4
+0;0;0;30.3546;0;0;0;29.425;0;0;0;19.1277;0;0;0;7.53215;0;0;0;6.01969;0;0;0;8.89513;0;0;0;13.728;0;0;0;13.457;4
+0;0;0;21.1941;0;0;0;26.2474;0;0;0;16.9936;0;0;0;6.31876;0;0;0;5.32854;0;0;0;9.23038;0;0;0;8.49117;0;0;0;6.41898;4
+0;0;0;25.3359;0;0;0;25.771;0;0;0;19.0159;0;0;0;6.96898;0;0;0;5.41664;0;0;0;9.18531;0;0;0;9.05502;0;0;0;6.49641;4
+0;0;0;21.8906;0;0;0;27.466;0;0;0;17.9427;0;0;0;5.69561;0;0;0;4.7697;0;0;0;8.93141;0;0;0;9.71202;0;0;0;6.78823;4
+0;0;0;22.7249;0;0;0;28.8755;0;0;0;22.6807;0;0;0;7.58925;0;0;0;6.12427;0;0;0;10.704;0;0;0;10.4523;0;0;0;6.94574;4
+0;0;0;27.8878;0;0;0;30.6963;0;0;0;20.9016;0;0;0;8.9547;0;0;0;6.18304;0;0;0;10.2551;0;0;0;12.2953;0;0;0;9.86712;4
+0;0;0;5.65568;0;0;0;4.41664;0;0;0;3.7314;0;0;0;4.88399;0;0;0;12.6234;0;0;0;25.039;0;0;0;16.8385;0;0;0;19.8137;5
+0;0;0;4.92104;0;0;0;3.8175;0;0;0;3.77977;0;0;0;6.49923;0;0;0;15.0465;0;0;0;23.222;0;0;0;17.3295;0;0;0;14.9889;5
+0;0;0;5.74253;0;0;0;3.52373;0;0;0;3.48999;0;0;0;5.67039;0;0;0;12.4424;0;0;0;19.7182;0;0;0;14.9321;0;0;0;14.4237;5
+0;0;0;4.89183;0;0;0;3.57724;0;0;0;3.23316;0;0;0;6.11991;0;0;0;15.194;0;0;0;18.9769;0;0;0;12.6786;0;0;0;13.574;5
+0;0;0;7.72852;0;0;0;4.20516;0;0;0;3.13741;0;0;0;5.13355;0;0;0;11.2229;0;0;0;16.5384;0;0;0;13.0513;0;0;0;12.6507;5
+0;0;0;3.71439;0;0;0;2.91033;0;0;0;2.81721;0;0;0;4.54716;0;0;0;7.83092;0;0;0;17.5545;0;0;0;15.6074;0;0;0;10.4441;5
+0;0;0;3.54542;0;0;0;2.71047;0;0;0;2.80773;0;0;0;4.27746;0;0;0;8.49667;0;0;0;19.0181;0;0;0;15.6761;0;0;0;9.05115;5
+0;0;0;3.6647;0;0;0;3.03425;0;0;0;2.87112;0;0;0;4.2903;0;0;0;9.08534;0;0;0;17.8359;0;0;0;15.7547;0;0;0;10.3045;5
+0;0;0;4.89013;0;0;0;3.89957;0;0;0;3.34913;0;0;0;4.8408;0;0;0;11.0686;0;0;0;20.9206;0;0;0;18.6737;0;0;0;11.6974;5
+0;0;0;4.23792;0;0;0;3.25832;0;0;0;2.90115;0;0;0;4.39469;0;0;0;9.31218;0;0;0;15.4824;0;0;0;16.442;0;0;0;12.0706;5
+0;0;0;2.70493;0;0;0;4.30271;0;0;0;4.98431;0;0;0;3.57211;0;0;0;12.1186;0;0;0;28.1184;0;0;0;13.6574;0;0;0;3.77183;6
+0;0;0;2.34734;0;0;0;4.14085;0;0;0;5.17397;0;0;0;3.52136;0;0;0;13.5967;0;0;0;31.9597;0;0;0;13.2484;0;0;0;3.31662;6
+0;0;0;2.3523;0;0;0;4.28836;0;0;0;6.37861;0;0;0;4.23989;0;0;0;15.6802;0;0;0;32.5598;0;0;0;14.0006;0;0;0;3.48186;6
+0;0;0;2.54951;0;0;0;4.01705;0;0;0;5.60892;0;0;0;4.29224;0;0;0;15.0271;0;0;0;32.2541;0;0;0;14.9574;0;0;0;3.51141;6
+0;0;0;2.64008;0;0;0;4.14447;0;0;0;4.2903;0;0;0;3.68194;0;0;0;10.9989;0;0;0;28.7302;0;0;0;13.5248;0;0;0;3.42053;6
+0;0;0;2.20378;0;0;0;4.32782;0;0;0;4.55046;0;0;0;4.13038;0;0;0;14.7365;0;0;0;32.961;0;0;0;12.5607;0;0;0;2.93542;6
+0;0;0;2.29637;0;0;0;3.57631;0;0;0;3.65194;0;0;0;2.88213;0;0;0;10.7003;0;0;0;31.0255;0;0;0;12.823;0;0;0;2.93542;6
+0;0;0;2.2383;0;0;0;3.9598;0;0;0;3.67469;0;0;0;3.29343;0;0;0;13.3209;0;0;0;28.0356;0;0;0;12.2172;0;0;0;2.95635;6
+0;0;0;2.42143;0;0;0;3.38575;0;0;0;3.35162;0;0;0;3.24551;0;0;0;12.6643;0;0;0;26.9269;0;0;0;12.0488;0;0;0;3.13794;6
+0;0;0;2.24128;0;0;0;3.69233;0;0;0;4.23556;0;0;0;3.21766;0;0;0;11.598;0;0;0;27.8616;0;0;0;12.6275;0;0;0;3.14219;6
+0;0;0;10.3018;0;0;0;20.1668;0;0;0;14.1632;0;0;0;9.5734;0;0;0;18.7629;0;0;0;25.1343;0;0;0;22.9566;0;0;0;13.9505;7
+0;0;0;11.5411;0;0;0;21.6611;0;0;0;12.7229;0;0;0;8.51313;0;0;0;16.9963;0;0;0;24.075;0;0;0;21.6972;0;0;0;11.8908;7
+0;0;0;12.123;0;0;0;27.2867;0;0;0;15.6934;0;0;0;9.134;0;0;0;20.123;0;0;0;27.1221;0;0;0;19.5168;0;0;0;13.358;7
+0;0;0;11.5014;0;0;0;20.6957;0;0;0;14.1516;0;0;0;8.78521;0;0;0;20.1652;0;0;0;29.5745;0;0;0;21.4562;0;0;0;12.791;7
+0;0;0;10.0417;0;0;0;19.3758;0;0;0;13.4685;0;0;0;7.70606;0;0;0;16.5794;0;0;0;22.649;0;0;0;19.8313;0;0;0;11.3939;7
+0;0;0;10.5016;0;0;0;17.4684;0;0;0;11.2319;0;0;0;7.25879;0;0;0;14.39;0;0;0;18.4427;0;0;0;21.9172;0;0;0;9.80153;7
+0;0;0;7.45833;0;0;0;15.9156;0;0;0;11.7431;0;0;0;7.73994;0;0;0;14.0237;0;0;0;21.7089;0;0;0;18.9903;0;0;0;9.21737;7
+0;0;0;6.1965;0;0;0;13.4463;0;0;0;11.8544;0;0;0;6.26365;0;0;0;12.5829;0;0;0;20.3878;0;0;0;21.8727;0;0;0;7.58441;7
+0;0;0;8.80303;0;0;0;18.1043;0;0;0;12.7464;0;0;0;7.03397;0;0;0;14.9365;0;0;0;20.2806;0;0;0;23.101;0;0;0;7.54122;7
+0;0;0;7.40225;0;0;0;14.6017;0;0;0;10.9713;0;0;0;7.15309;0;0;0;15.1361;0;0;0;20.6693;0;0;0;20.3542;0;0;0;7.86278;7
+0;0;0;29.7965;0;0;0;46.4813;0;0;0;25.8601;0;0;0;10.1504;0;0;0;9.13254;0;0;0;21.7692;0;0;0;14.8239;0;0;0;8.05067;8
+0;0;0;24.1586;0;0;0;35.2567;0;0;0;22.3876;0;0;0;8.67544;0;0;0;6.48665;0;0;0;16.7094;0;0;0;11.3606;0;0;0;6.99142;8
+0;0;0;26.2205;0;0;0;35.8882;0;0;0;17.7908;0;0;0;6.74636;0;0;0;6.59545;0;0;0;21.0339;0;0;0;13.2112;0;0;0;6.96922;8
+0;0;0;21.3611;0;0;0;30.9319;0;0;0;19.3171;0;0;0;6.74685;0;0;0;6.24847;0;0;0;17.2445;0;0;0;11.7334;0;0;0;6.92868;8
+0;0;0;23.2991;0;0;0;30.6339;0;0;0;22.3061;0;0;0;8.08868;0;0;0;6.81322;0;0;0;22.7413;0;0;0;12.6433;0;0;0;6.54574;8
+0;0;0;26.0944;0;0;0;32.7936;0;0;0;15.202;0;0;0;7.14166;0;0;0;6.00472;0;0;0;13.6872;0;0;0;9.09652;0;0;0;7.04982;8
+0;0;0;23.4322;0;0;0;31.1387;0;0;0;16.1796;0;0;0;5.66657;0;0;0;4.9017;0;0;0;13.9206;0;0;0;9.99517;0;0;0;5.07609;8
+0;0;0;21.1703;0;0;0;25.9205;0;0;0;12.316;0;0;0;6.51997;0;0;0;6.72384;0;0;0;14.2006;0;0;0;10.8422;0;0;0;6.77028;8
+0;0;0;24.015;0;0;0;31.7473;0;0;0;16.2278;0;0;0;6.49949;0;0;0;5.50212;0;0;0;11.6409;0;0;0;8.73976;0;0;0;6.02661;8
+0;0;0;21.6348;0;0;0;26.2034;0;0;0;12.9548;0;0;0;5.79626;0;0;0;4.9085;0;0;0;11.0059;0;0;0;7.27713;0;0;0;5.58062;8)";*/
+    //cout << t;
+    stringstream BASE(dataset);
+        string item;
+        vector<string> s;
+        while (getline(BASE, item, '\n'))
+        {
+           s.push_back(item);
+        }
+        for (auto ct : s){
+        	vector<double> record;
+        	stringstream ss(ct);
+        	vector<string> line;
+        	string fields;
+
+        	                while (getline(ss, fields, ','))
+        	                        {
+        	                           line.push_back(fields);
+        	                        }
+        	                for (string field : line)
+        	                    record.push_back(strtof(field.c_str(),0));
+
+        	                data.push_back(record);
+        	                }
+
+
+
+    return data;
+
+
+}
+
+
+
+
+
+
+// Used to sort an array of points by increasing
+// order of distance
+bool comparison(Point a, Point b)
+{
+    return (a.distance < b.distance);
+}
+
+
+int classifyAPoint(Point arr[], int n, int k, Point p)
+{
+    for (int i = 0; i < n; i++)
+        arr[i].distance =
+            sqrt(//(arr[i].s1_s - p.s1_s) * (arr[i].s1_s - p.s1_s) +
+                 //(arr[i].s1_p - p.s1_p) * (arr[i].s1_p - p.s1_p) + (arr[i].s1_m - p.s1_m) * (arr[i].s1_m - p.s1_m) +
+				 (arr[i].s1_r - p.s1_r) * (arr[i].s1_r - p.s1_r) + //(arr[i].s2_s - p.s2_s) * (arr[i].s2_s - p.s2_s) +
+				 //(arr[i].s2_p - p.s2_p) * (arr[i].s2_p - p.s2_p) + (arr[i].s2_m - p.s2_m) * (arr[i].s2_m - p.s2_m) +
+				 (arr[i].s2_r - p.s2_r) * (arr[i].s2_r - p.s2_r) + //(arr[i].s3_s - p.s3_s) * (arr[i].s3_s - p.s3_s) +
+				 //(arr[i].s3_p - p.s3_p) * (arr[i].s3_p - p.s3_p) + (arr[i].s3_m - p.s3_m) * (arr[i].s3_m - p.s3_m) +
+				 (arr[i].s3_r - p.s3_r) * (arr[i].s3_r - p.s3_r) + //(arr[i].s4_s - p.s4_s) * (arr[i].s4_s - p.s4_s) +
+				 //(arr[i].s4_p - p.s4_p) * (arr[i].s4_p - p.s4_p) + (arr[i].s4_m - p.s4_m) * (arr[i].s4_m - p.s4_m) +
+				 (arr[i].s4_r - p.s4_r) * (arr[i].s4_r - p.s4_r) + //(arr[i].s5_s - p.s5_s) * (arr[i].s5_s - p.s5_s) +
+				 //(arr[i].s5_p - p.s5_p) * (arr[i].s5_p - p.s5_p) + (arr[i].s5_m - p.s5_m) * (arr[i].s5_m - p.s5_m) +
+				 (arr[i].s5_r - p.s5_r) * (arr[i].s5_r - p.s5_r) + //(arr[i].s6_s - p.s6_s) * (arr[i].s6_s - p.s6_s) +
+				 //(arr[i].s6_p - p.s6_p) * (arr[i].s6_p - p.s6_p) + (arr[i].s6_m - p.s6_m) * (arr[i].s6_m - p.s6_m) +
+				 (arr[i].s6_r - p.s6_r) * (arr[i].s6_r - p.s6_r) + //(arr[i].s7_s - p.s7_s) * (arr[i].s7_s - p.s7_s) +
+				 //(arr[i].s7_p - p.s7_p) * (arr[i].s7_p - p.s7_p) + (arr[i].s7_m - p.s7_m) * (arr[i].s7_m - p.s7_m) +
+				 (arr[i].s7_r - p.s7_r) * (arr[i].s7_r - p.s7_r) + //(arr[i].s8_s - p.s8_s) * (arr[i].s8_s - p.s8_s) +
+				 //(arr[i].s8_p - p.s8_p) * (arr[i].s8_p - p.s8_p) + (arr[i].s8_m - p.s8_m) * (arr[i].s8_m - p.s8_m) +
+				 (arr[i].s8_r - p.s8_r) * (arr[i].s8_r - p.s8_r));
+
+    // Sort the Points by distance from p
+    sort(arr, arr+n, comparison);
+
+    // Now consider the first k elements and only
+    int freq1 = 0;     // Frequency of group 0		A
+        int freq2 = 0;		// Frequency of group 1		B
+        int freq3= 0;		// Frequency of group 2		I
+        int freq4= 0;		// Frequency of group 3		L
+        int freq5= 0;		// Frequency of group 4		N
+        int freq6= 0;		// Frequency of group 5		O
+        int freq7= 0;		// Frequency of group 6		P
+        int freq8= 0;		// Frequency of group 7	    Q
+        int freq9= 0;		// Frequency of group 78    U
+        for (int i = 0; i < k; i++)
+        {
+            if (arr[i].val == 0)
+                freq1++;
+            else if (arr[i].val == 1)
+                freq2++;
+            else if (arr[i].val == 2)
+                freq3++;
+            else if (arr[i].val == 3)
+                        freq4++;
+            else if (arr[i].val == 4)
+                        freq5++;
+            else if (arr[i].val == 5)
+                        freq6++;
+            else if (arr[i].val == 6)
+                        freq7++;
+            else if (arr[i].val == 7)
+                        freq8++;
+            else if (arr[i].val == 8)
+                                freq9++;
+        }
+        //Returning highest freq
+        if (freq1>freq2 and freq1 > freq3 and freq1 > freq4 and freq1 > freq5  and freq1 > freq6 and freq1 > freq7 and freq1 > freq8 and freq1 > freq9)
+        	return (0);
+        if (freq2>freq1 and freq2 > freq3 and freq2 > freq4  and freq2 > freq5 and freq2 > freq6  and freq2 > freq7 and freq2 > freq8 and freq2 > freq9)
+            return (1);
+        if (freq3>freq1 and freq3 > freq2 and freq3 > freq4 and freq3 > freq5 and freq3 > freq6 and freq3 > freq7 and freq3 > freq8 and freq3 > freq9)
+            return (2);
+        if (freq4>freq1 and freq4 > freq2 and freq4 > freq3  and freq4 > freq5 and freq4 > freq6 and freq4 > freq7 and freq4 > freq8 and freq4 > freq9)
+                return (3);
+        if (freq5>freq1 and freq5 > freq2 and freq5 > freq3  and freq5 > freq4 and freq5 > freq6 and freq5 > freq7 and freq5 > freq8 and freq5 > freq9)
+                    return (4);
+        if (freq6>freq1 and freq6 > freq2 and freq6 > freq3  and freq6 > freq4 and freq6 > freq5 and freq6 > freq7 and freq6 > freq8 and freq6 > freq9)
+                        return (5);
+        if (freq7>freq1 and freq7 > freq2 and freq7 > freq3  and freq7 > freq4 and freq7 > freq5 and freq7 > freq6 and freq7 > freq8 and freq7 > freq9)
+                            return (6);
+        if (freq8>freq1 and freq8 > freq2 and freq8 > freq3  and freq8 > freq4 and freq8 > freq5 and freq8 > freq6 and freq8 > freq7 and freq8 > freq9)
+                                return (7);
+        if (freq9>freq1 and freq9 > freq2 and freq9 > freq3  and freq9 > freq4 and freq9 > freq5 and freq9 > freq6 and freq9 > freq7 and freq9 > freq8)
+                                    return (8);
+
+        return (100);
+}
+
+
+/*int * display = (int *) 0x8001060; //HEX[3-0] Display address
+
+void numeroDisplay(int numero){
+
+printf("El número ingresado es %d\n",numero);
+switch(numero)
+{
+case 0:
+*display=64;
+break;
+case 1:
+*display=121;
+break;
+case 2:
+*display=36;
+break;
+case 3:
+*display=48;
+break;
+case 4:
+*display=25;
+break;
+case 5:
+*display=18;
+break;
+case 6:
+*display=2;
+break;
+case 7:
+*display=120;
+break;
+case 8:
+*display=0;
+break;
+case 9:
+*display=16;
+break;
+default:
+printf("Ha ingresado un numero no valido\n");
+break;
+}
+
+}*/
+
+
+int main()
+{
+	printf("Inicio\n");
+
+
+
+	    string dataset = "";
+	    	    	//dataset.append("hola\n");
+	    	    	//dataset.append("holis");
+	    	    	//std::cout<<dataset;
+
+
+	    //printf("Hello from Nios II!\n");
+	    	 unsigned short int status;
+	    	 char a;
+	    	 int numero=0;
+	    	 int numeroPuntos = 0;
+
+	    	 //preparacion
+	    	while(a!=122){
+	    	 status = IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+	    	 while (!(status & ALTERA_AVALON_UART_STATUS_RRDY_MSK))
+	    		 status=IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+	    		a= IORD_ALTERA_AVALON_UART_RXDATA(UART_0_BASE);
+	    		status=ALTERA_AVALON_UART_STATUS_TRDY_MSK;
+	    		//printf ("numero %c\n",(int)a);
+	    	}
+
+	    	printf("Para la toma de muestras relajese, trate de hacer las posiciones lo mas relajado posible. \n En pantalla aparecera un mensaje cada vez que empiece la toma de muestras y le dara 3 segundos antes de empezar.\nUna vez que apareza la palabra 'YA' realice la posicion lo mas natural posible.\n");
+	    	delay(15);
+	    	printf("Primera toma de muestra empezara en 3 segundos\n");
+	    	delay(3);
+	    	printf("YA!\n");
+	    	delay(2);
+
+
+	    	//primer dataset
+	    	int cont;
+	    	int m = 0; //numero de veces
+	    	char linea[88]="";
+	    	while(m<10){
+	    		cont = 0;
+	    			while(a!=122){
+	    				//len del string +1
+	    				if ((cont>1)&(cont<89)){
+	    					status = IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+	    					 while (!(status & ALTERA_AVALON_UART_STATUS_RRDY_MSK))
+	    						status=IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+	    					a= IORD_ALTERA_AVALON_UART_RXDATA(UART_0_BASE);
+	    					status=ALTERA_AVALON_UART_STATUS_TRDY_MSK;
+	    					linea[cont-2]=((int)a);
+
+	    					//printf ("%c",(int)a);
+	    				}else{
+	    					status = IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+	    					 while (!(status & ALTERA_AVALON_UART_STATUS_RRDY_MSK))
+	    					status=IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+	    					a= IORD_ALTERA_AVALON_UART_RXDATA(UART_0_BASE);
+	    					status=ALTERA_AVALON_UART_STATUS_TRDY_MSK;
+	    				}
+	    				cont++;
+	    			}
+	    			a=121;
+	    			m++;
+	    			if (m<2){
+
+	    			}else{
+						dataset.append(linea);
+						dataset.append("0\n");
+						numeroPuntos++;
+	    			}
+	    		}
+
+	    	printf("Fin primer dataset\n");
+	    	printf("Segunda toma de muestras empezara en 3 segundos\n");
+	    	delay(3);
+	    	printf("YA!!\n");
+	    	delay(2);
+
+
+	    	//segundo dataset
+	    		    	m = 0; //numero de veces
+	    		    	while(m<9){
+	    		    		cont = 0;
+	    		    			while(a!=122){
+	    		    				//len del string +1
+	    		    				if ((cont>1)&(cont<89)){
+	    		    					status = IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+	    		    					 while (!(status & ALTERA_AVALON_UART_STATUS_RRDY_MSK))
+	    		    						status=IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+	    		    					a= IORD_ALTERA_AVALON_UART_RXDATA(UART_0_BASE);
+	    		    					status=ALTERA_AVALON_UART_STATUS_TRDY_MSK;
+	    		    					linea[cont-2]=((int)a);
+	    		    					//printf ("%c",(int)a);
+	    		    				}else{
+	    		    					status = IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+	    		    					 while (!(status & ALTERA_AVALON_UART_STATUS_RRDY_MSK))
+	    		    					status=IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+	    		    					a= IORD_ALTERA_AVALON_UART_RXDATA(UART_0_BASE);
+	    		    					status=ALTERA_AVALON_UART_STATUS_TRDY_MSK;
+	    		    				}
+	    		    				cont++;
+	    		    			}
+	    		    			a=121;
+	    		    			m++;
+	    		    			if (m<2){
+
+	    		    			}else{
+	    		    				dataset.append(linea);
+	    		    			    dataset.append("1\n");
+    		    					numeroPuntos++;
+
+	    		    			}
+
+	    		    		}
+
+	    		    	printf("Fin segundo dataset\n");
+	    		        printf("Tercera toma de muestras empezara en 3 segundos\n");
+						delay(3);
+						printf("YA!\n");
+						delay(2);
+			//tercer dataset
+						m = 0; //numero de veces
+						while(m<9){
+							cont = 0;
+								while(a!=122){
+									//len del string +1
+									if ((cont>1)&(cont<89)){
+										status = IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+										 while (!(status & ALTERA_AVALON_UART_STATUS_RRDY_MSK))
+											status=IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+										a= IORD_ALTERA_AVALON_UART_RXDATA(UART_0_BASE);
+										status=ALTERA_AVALON_UART_STATUS_TRDY_MSK;
+										linea[cont-2]=((int)a);
+										//printf ("%c",(int)a);
+									}else{
+										status = IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+										 while (!(status & ALTERA_AVALON_UART_STATUS_RRDY_MSK))
+										status=IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+										a= IORD_ALTERA_AVALON_UART_RXDATA(UART_0_BASE);
+										status=ALTERA_AVALON_UART_STATUS_TRDY_MSK;
+									}
+									cont++;
+								}
+								a=121;
+								m++;
+								if (m<2){
+
+								}else{
+									dataset.append(linea);
+									dataset.append("2\n");
+									numeroPuntos++;
+
+								}
+
+							}
+
+			printf("Fin tercer dataset\n");
+									printf("Cuarta toma de muestras empezara en 3 segundos\n");
+									delay(3);
+									printf("YA!\n");
+									delay(2);
+						//tercer dataset
+									m = 0; //numero de veces
+									while(m<9){
+										cont = 0;
+											while(a!=122){
+												//len del string +1
+												if ((cont>1)&(cont<89)){
+													status = IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+													 while (!(status & ALTERA_AVALON_UART_STATUS_RRDY_MSK))
+														status=IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+													a= IORD_ALTERA_AVALON_UART_RXDATA(UART_0_BASE);
+													status=ALTERA_AVALON_UART_STATUS_TRDY_MSK;
+													linea[cont-2]=((int)a);
+													//printf ("%c",(int)a);
+												}else{
+													status = IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+													 while (!(status & ALTERA_AVALON_UART_STATUS_RRDY_MSK))
+													status=IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+													a= IORD_ALTERA_AVALON_UART_RXDATA(UART_0_BASE);
+													status=ALTERA_AVALON_UART_STATUS_TRDY_MSK;
+												}
+												cont++;
+											}
+											a=121;
+											m++;
+											if (m<2){
+
+											}else{
+												dataset.append(linea);
+												dataset.append("3\n");
+												numeroPuntos++;
+
+											}
+
+										}
+
+
+					printf("Fin cuarto dataset\n");
+											printf("Quinta toma de muestras empezara en 3 segundos\n");
+											delay(3);
+											printf("YA!\n");
+											delay(2);
+								//tercer dataset
+											m = 0; //numero de veces
+											while(m<9){
+												cont = 0;
+													while(a!=122){
+														//len del string +1
+														if ((cont>1)&(cont<89)){
+															status = IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+															 while (!(status & ALTERA_AVALON_UART_STATUS_RRDY_MSK))
+																status=IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+															a= IORD_ALTERA_AVALON_UART_RXDATA(UART_0_BASE);
+															status=ALTERA_AVALON_UART_STATUS_TRDY_MSK;
+															linea[cont-2]=((int)a);
+															//printf ("%c",(int)a);
+														}else{
+															status = IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+															 while (!(status & ALTERA_AVALON_UART_STATUS_RRDY_MSK))
+															status=IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+															a= IORD_ALTERA_AVALON_UART_RXDATA(UART_0_BASE);
+															status=ALTERA_AVALON_UART_STATUS_TRDY_MSK;
+														}
+														cont++;
+													}
+													a=121;
+													m++;
+													if (m<2){
+
+													}else{
+														dataset.append(linea);
+														dataset.append("4\n");
+														numeroPuntos++;
+
+													}
+
+												}
+
+
+
+						//INGRSO DE ENTRENAMIENTO
+					vector<vector<double>> data = parse2DCsvFile(dataset);
+
+					printf("Dataset Cargado\n");
+						int n =41 ; // Number of data points
+						Point arr[41];
+						int ni=0;
+
+						printf("\n");
+							for (auto l : data) {
+								//arr[ni].s1_s= l[0];
+							  //  arr[ni].s1_p= l[1];
+							  //  arr[ni].s1_m= l[2];
+							   //arr[ni].s1_r= l[3];
+							   arr[ni].s1_r= l[0];
+
+							   // arr[ni].s2_s= l[4];
+					//	        arr[ni].s2_p= l[5];
+					//	        arr[ni].s2_m= l[6];
+								//arr[ni].s2_r= l[7];
+							   arr[ni].s2_r= l[1];
+
+						//        arr[ni].s3_s= l[8];
+						  //      arr[ni].s3_p= l[9];
+							//    arr[ni].s3_m= l[10];
+								//arr[ni].s3_r= l[11];
+							   arr[ni].s3_r= l[2];
+
+					//	        arr[ni].s4_s= l[12];
+						//        arr[ni].s4_p= l[13];
+						  //      arr[ni].s4_m= l[14];
+								//arr[ni].s4_r= l[15];
+							   arr[ni].s4_r= l[3];
+
+					//	        arr[ni].s5_s= l[16];
+						//        arr[ni].s5_p= l[17];
+						  //      arr[ni].s5_m= l[18];
+								//arr[ni].s5_r= l[19];
+							   arr[ni].s5_r= l[4];
+
+						 //       arr[ni].s6_s= l[20];
+						   //     arr[ni].s6_p= l[21];
+							 //   arr[ni].s6_m= l[22];
+								//arr[ni].s6_r= l[23];
+							   arr[ni].s6_r= l[5];
+
+					//	        arr[ni].s7_s= l[24];
+						//        arr[ni].s7_p= l[25];
+						  //      arr[ni].s7_m= l[26];
+								//arr[ni].s7_r= l[27];
+							   arr[ni].s7_r= l[6];
+
+					//	        arr[ni].s8_s= l[28];
+						//        arr[ni].s8_p= l[29];
+						  //      arr[ni].s8_m= l[30];
+							   // arr[ni].s8_r= l[31];
+							   arr[ni].s8_r= l[7];
+
+								//arr[ni].val= l[32];
+							   arr[ni].val= l[8];
+
+								ni++;
+							}
+							printf("Arreglo iniciado\n");
+
+
+
+	    	//printf ("%d",numeroPuntos);
+	    	//std::cout<<dataset;
+
+							///ENTRENAMIENTO COMPLETO
+
+
+			printf("Empieza clasificacion\n");
+			delay(3);
+			printf("YA!\n");
+
+//tercer dataset
+			m = 0; //numero de veces
+			while(1){
+				cont = 0;
+					while(a!=122){
+						//len del string +1
+						if ((cont>1)&(cont<89)){
+							status = IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+							 while (!(status & ALTERA_AVALON_UART_STATUS_RRDY_MSK))
+								status=IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+							a= IORD_ALTERA_AVALON_UART_RXDATA(UART_0_BASE);
+							status=ALTERA_AVALON_UART_STATUS_TRDY_MSK;
+							linea[cont-2]=((int)a);
+							//printf ("%c",(int)a);
+						}else{
+							status = IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+							 while (!(status & ALTERA_AVALON_UART_STATUS_RRDY_MSK))
+							status=IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE);
+							a= IORD_ALTERA_AVALON_UART_RXDATA(UART_0_BASE);
+							status=ALTERA_AVALON_UART_STATUS_TRDY_MSK;
+						}
+						cont++;
+					}
+					a=121;
+					m++;
+					if (m<2){
+
+					}else{
+						//dataset.append(linea);
+						//dataset.append("2\n");
+						//numeroPuntos++;
+						Point p;
+							    			char *token ;
+							    			token = strtok(linea, ",");
+							    			p.s1_r = strtof(token,0);
+							    			int yu = 1;
+							    			   /* walk through other tokens */
+							    			   while( token != NULL ) {
+							    			     // printf( " %s\n", token );
+							    			      token = strtok(NULL, ",");
+							    			      switch (yu){
+
+							    			      	case 1:
+							    			      	       p.s2_r= strtof(token,0);
+							    			      	    			    	   //std::cout << token << std::endl;
+							    			      	       break;
+							    			      	case 2:
+							    			      	    	p.s3_r=strtof(token,0);
+							    			      	    			    	  // std::cout << token << std::endl;
+							    			      	    	break;
+							    			      	case 3:
+							    			      	    	p.s4_r= strtof(token,0);
+							    			      	    			        	//std::cout << token << std::endl;
+							    			      	    	break;
+							    			      	case 4:
+							    			      	    	p.s5_r= strtof(token,0);
+							    			      	    			       		//std::cout << token << std::endl;
+							    			      	    	break;
+							    			      	case 5:
+							    			      	    	p.s6_r= strtof(token,0);
+							    			      	    			        	//std::cout << token << std::endl;
+							    			      	    	break;
+							    			      	case 6:
+							    			      	    	p.s7_r= strtof(token,0);
+							    			      	    			        	//std::cout << token << std::endl;
+							    			      	    	break;
+							    			      	case 7:
+							    			      	    	p.s8_r= strtof(token,0);
+							    			      	    			        	//std::cout << token << std::endl;
+							    			      	    	break;
+
+							    			      	default:
+							    			      	    	break;
+							    			      	}
+							    			      yu++;
+
+							    			   }
+							    			   /*printf("%f",p.s1_r);
+							    			   printf(" ");
+							    			   printf("%f",p.s2_r);
+							    			   printf(" ");
+							    			   printf("%f",p.s3_r);
+							    			   printf(" ");
+							    			   printf("%f",p.s4_r);
+							    			   printf(" ");
+							    			   printf("%f",p.s5_r);
+							    			   printf(" ");
+							    			   printf("%f",p.s6_r);
+							    			   printf(" ");
+							    			   printf("%f",p.s7_r);
+							    			   printf(" ");
+							    			   printf("%f",p.s8_r);*/
+
+							    			    int k = 3;
+							    			    int numero = classifyAPoint(arr, n, k, p);
+							    			        switch (numero){
+							    			        case 0:
+							    			        	printf ("La letra es\t A\n ");
+							    			        	break;
+							    			        case 1:
+							    			            	printf ("La letra es\t B\n" );
+							    			            	break;
+							    			        case 2:
+							    			            	printf ("La letra es\t I\n");
+							    			            	break;
+							    			        case 3:
+							    			            	printf ("La letra es\t L\n");
+							    			            	break;
+							    			        case 4:
+							    			            	printf ("La letra es\t N\n");
+							    			            	break;
+							    			        case 5:
+							    			            	printf ("La letra es\t O\n");
+							    			            	break;
+							    			        case 6:
+							    			            	printf ("La letra es\t P\n");
+							    			            	break;
+							    			        case 7:
+							    			            	printf ("La letra es\t Q\n");
+							    			            	break;
+							    			        case 8:
+							    			            	printf ("La letra es\t U\n");
+							    			            	break;
+							    			        default:
+							    			            	printf ("La letra es\t -\n");
+							    			            	break;
+
+							    			        }
+							    			a=121;
+
+
+
+
+							    		}
+
+					}
+
+				}
+
+
+
+
+

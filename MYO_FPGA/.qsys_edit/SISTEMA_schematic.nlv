@@ -1,0 +1,28 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst SISTEMA.pio_1 -pg 1 -lvl 4 -y 30
+preplace inst SISTEMA.CPU.cpu -pg 1
+preplace inst SISTEMA.CPU.reset_bridge -pg 1
+preplace inst SISTEMA.TIMER -pg 1 -lvl 4 -y 230
+preplace inst SISTEMA.SYS_ID -pg 1 -lvl 3 -y 300
+preplace inst SISTEMA.SDRAM -pg 1 -lvl 3 -y 400
+preplace inst SISTEMA.uart_0 -pg 1 -lvl 4 -y 520
+preplace inst SISTEMA.JTAG -pg 1 -lvl 4 -y 130
+preplace inst SISTEMA -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst SISTEMA.pll -pg 1 -lvl 2 -y 430
+preplace inst SISTEMA.CPU.clock_bridge -pg 1
+preplace inst SISTEMA.CPU -pg 1 -lvl 3 -y 160
+preplace inst SISTEMA.CLOCK -pg 1 -lvl 1 -y 390
+preplace netloc EXPORT<net_container>SISTEMA</net_container>(MASTER)pll.outclk0,(MASTER)SISTEMA.sdram_clk_1) 1 2 3 NJ 530 NJ 510 NJ
+preplace netloc EXPORT<net_container>SISTEMA</net_container>(SLAVE)SISTEMA.uart_0_external_connection,(SLAVE)uart_0.external_connection) 1 0 4 NJ 570 NJ 570 NJ 570 NJ
+preplace netloc EXPORT<net_container>SISTEMA</net_container>(SLAVE)pio_1.external_connection,(SLAVE)SISTEMA.pio_1_external_connection) 1 0 4 NJ 60 NJ 60 NJ 60 NJ
+preplace netloc POINT_TO_POINT<net_container>SISTEMA</net_container>(MASTER)pll.outclk1,(SLAVE)pio_1.clk) 1 2 2 NJ 510 NJ
+preplace netloc FAN_OUT<net_container>SISTEMA</net_container>(SLAVE)TIMER.clk,(SLAVE)SDRAM.clk,(MASTER)CLOCK.clk,(SLAVE)JTAG.clk,(SLAVE)CPU.clk,(SLAVE)pll.refclk,(SLAVE)SYS_ID.clk,(SLAVE)uart_0.clk) 1 1 3 400 520 610 550 1180
+preplace netloc EXPORT<net_container>SISTEMA</net_container>(SLAVE)CLOCK.clk_in_reset,(SLAVE)SISTEMA.reset) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>SISTEMA</net_container>(SLAVE)CPU.reset,(SLAVE)JTAG.reset,(SLAVE)SYS_ID.reset,(SLAVE)TIMER.reset,(SLAVE)pll.reset,(SLAVE)uart_0.reset,(MASTER)CLOCK.clk_reset,(SLAVE)pio_1.reset,(SLAVE)SDRAM.reset,(MASTER)CPU.debug_reset_request) 1 1 3 380 540 670 590 1120
+preplace netloc INTERCONNECT<net_container>SISTEMA</net_container>(SLAVE)TIMER.s1,(MASTER)CPU.data_master,(SLAVE)uart_0.s1,(SLAVE)SYS_ID.control_slave,(SLAVE)SDRAM.s1,(SLAVE)JTAG.avalon_jtag_slave,(MASTER)CPU.instruction_master,(SLAVE)pio_1.s1,(SLAVE)CPU.debug_mem_slave) 1 2 2 710 610 1100
+preplace netloc EXPORT<net_container>SISTEMA</net_container>(SLAVE)CLOCK.clk_in,(SLAVE)SISTEMA.clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>SISTEMA</net_container>(SLAVE)SISTEMA.sdram,(SLAVE)SDRAM.wire) 1 0 3 NJ 500 NJ 500 NJ
+preplace netloc FAN_OUT<net_container>SISTEMA</net_container>(SLAVE)JTAG.irq,(MASTER)CPU.irq,(SLAVE)uart_0.irq,(SLAVE)TIMER.irq) 1 3 1 1160
+levelinfo -pg 1 0 170 1480
+levelinfo -hier SISTEMA 180 210 480 840 1230 1380

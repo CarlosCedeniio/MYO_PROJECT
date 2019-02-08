@@ -1,0 +1,18 @@
+﻿  emg-data-sample.cpp
+c:\users\carlo\desktop\myo-sdk-win-0.9.0\include\myo\cxx\detail\throwonerror.hpp(39): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\users\carlo\desktop\myo-sdk-win-0.9.0\include\myo\cxx\detail\throwonerror.hpp(39): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+c:\users\carlo\desktop\myo-sdk-win-0.9.0\include\myo\cxx\detail\throwonerror.hpp(45): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\users\carlo\desktop\myo-sdk-win-0.9.0\include\myo\cxx\detail\throwonerror.hpp(45): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+c:\users\carlo\desktop\myo-sdk-win-0.9.0\samples\emg-data-sample.cpp(16): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xutility(2483): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xutility(2483): note: see declaration of 'std::copy::_Unchecked_iterators::_Deprecate'
+  c:\users\carlo\desktop\myo-sdk-win-0.9.0\samples\emg-data-sample.cpp(150): note: see reference to function template instantiation '_OutIt *std::copy<std::_String_iterator<std::_String_val<std::_Simple_types<_Ty>>>,char*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Ty=char,
+              _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>
+          ]
+  emg-data-sample-VisualStudio2012.vcxproj -> C:\Users\carlo\Desktop\myo-sdk-win-0.9.0\samples\x64\Debug\emg-data-sample.exe
+  Copy required dlls to output directory
+          1 file(s) copied.

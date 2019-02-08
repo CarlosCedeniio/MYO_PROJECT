@@ -1,0 +1,22 @@
+14:46:44 **** Incremental Build of configuration Nios II for project uart2 ****
+make all 
+Info: Building ../uart2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../uart2_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../uart2_bsp//HAL/inc -I../uart2_bsp/ -I../uart2_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:13:22: warning: unused variable 'data' [-Wunused-variable]
+   unsigned short int data,status;
+                      ^
+Info: Linking uart2.elf
+nios2-elf-g++  -T'../uart2_bsp//linker.x' -msys-crt0='../uart2_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../uart2_bsp/   -Wl,-Map=uart2.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o uart2.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert uart2.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/uart2_bsp/../../SISTEMA.sopcinfo
+Info: (uart2.elf) 73 KBytes program size (code + initialized data).
+Info:             65455 KBytes free for stack + heap.
+Info: Creating uart2.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source uart2.elf >uart2.objdump
+[uart2 build complete]
+
+14:46:46 Build Finished (took 2s.589ms)
+

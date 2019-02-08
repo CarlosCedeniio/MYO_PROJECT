@@ -1,0 +1,74 @@
+#include <iostream>
+using namespace std;
+
+class Animal{
+private: //Atributos
+	int edad;
+	string tipo;
+	string raza;
+	string color;
+public: //Metodos
+	Animal();
+	Animal(int,string,string,string);
+	int getEdad();
+	string getTipo();
+	string getRaza();
+	string getColor();
+	void setEdad(int);
+	void setTipo(string);
+	void setRaza(string);
+	void setColor(string);
+	void imprimir_Animal();
+};
+Animal::Animal(){//Constructor, nos sirve para inicializar los atributos
+	edad=0;
+	tipo="";
+	raza="";
+	color="";
+
+}
+Animal::Animal(int _edad, string _tipo, string _raza, string _color){//Constructor, nos sirve para inicializar los atributos
+	edad=_edad;
+	tipo=_tipo;
+	raza=_raza;
+	raza=_color;
+}
+int Animal::getEdad() { return edad;}
+string Animal::getTipo() { return tipo;}
+string Animal::getRaza() { return raza;}
+string Animal::getColor() { return color;}
+void Animal::setEdad(int _edad) { edad = _edad;}
+void Animal::setTipo(string _tipo) { tipo = _tipo;}
+void Animal::setRaza(string _raza) { tipo = _raza;}
+void Animal::setColor(string _color) { tipo = _color;}
+
+void Animal::imprimir_Animal(){
+	cout<<"El animal es de tipo: "<<tipo<<" tiene "<<edad<<"años, raza "<<raza<<"  y es de color"<<color<<endl;
+}
+
+int main()
+{
+	while(1){
+		int age=0;string tipo="";string raza="";string color="";
+		Animal p1= Animal();
+		cout << "**************  Ingrese información del animal  **************" << endl;
+		cout << "Ingrese el tipo: ";
+		cin >> tipo;
+		cout << "Ingrese su edad: ";
+		cin >> age;
+		cout << "Ingrese la raza: ";
+		cin >> raza;
+		cout << "Ingrese el color: ";
+		cin >> color;
+		cout << endl;
+		p1.setEdad(age);
+		p1.setTipo(tipo);
+		p1.setRaza(raza);
+		p1.setColor(color);
+		p1.imprimir_Animal();
+		for(int i=0;i<8;i++){
+			cout << endl;
+		}
+	}
+	return 0;
+}

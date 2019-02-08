@@ -1,0 +1,869 @@
+15:24:27 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1012 KBytes program size (code + initialized data).
+Info:                 64515 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+15:25:06 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+15:25:08 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+15:27:07 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+15:27:16 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1012 KBytes program size (code + initialized data).
+Info:                 64515 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+15:31:24 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+15:31:32 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1012 KBytes program size (code + initialized data).
+Info:                 64515 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+15:33:53 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+15:33:58 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1011 KBytes program size (code + initialized data).
+Info:                 64517 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+15:36:17 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+15:36:20 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:804:15: warning: unused variable 'p' [-Wunused-variable]
+         Point p;
+               ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1011 KBytes program size (code + initialized data).
+Info:                 64517 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+15:40:27 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+15:40:31 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:804:15: warning: unused variable 'p' [-Wunused-variable]
+         Point p;
+               ^
+hello_world.cpp:810:17: warning: unused variable 'c' [-Wunused-variable]
+             int c = 0;
+                 ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+hello_world.cpp:938:1: error: expected '}' at end of input
+ }
+ ^
+make: *** [obj/default/hello_world.o] Error 1
+15:41:51 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:804:15: warning: unused variable 'p' [-Wunused-variable]
+         Point p;
+               ^
+hello_world.cpp:810:17: warning: unused variable 'c' [-Wunused-variable]
+             int c = 0;
+                 ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+hello_world.cpp:938:1: error: expected '}' at end of input
+ }
+ ^
+make: *** [obj/default/hello_world.o] Error 1
+15:41:56 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:804:15: warning: unused variable 'p' [-Wunused-variable]
+         Point p;
+               ^
+hello_world.cpp:810:17: warning: unused variable 'c' [-Wunused-variable]
+             int c = 0;
+                 ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1011 KBytes program size (code + initialized data).
+Info:                 64516 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+15:44:44 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+15:44:45 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+15:48:05 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+15:48:09 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp:817:17: warning: "/*" within comment [-Wcomment]
+                 /*float temp = strtof(token.c_str(),0);
+                 ^
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:804:15: warning: unused variable 'p' [-Wunused-variable]
+         Point p;
+               ^
+hello_world.cpp:808:20: warning: unused variable 'pos' [-Wunused-variable]
+             size_t pos = 0;
+                    ^
+hello_world.cpp:810:17: warning: unused variable 'c' [-Wunused-variable]
+             int c = 0;
+                 ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1011 KBytes program size (code + initialized data).
+Info:                 64516 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+15:52:41 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+15:52:46 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:812:46: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             while ((pos = s.find(delimiter)) != std::string::npos) {
+                                              ^
+hello_world.cpp:804:15: warning: unused variable 'p' [-Wunused-variable]
+         Point p;
+               ^
+hello_world.cpp:810:17: warning: unused variable 'c' [-Wunused-variable]
+             int c = 0;
+                 ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1011 KBytes program size (code + initialized data).
+Info:                 64516 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+15:58:50 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+15:58:51 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:00:54 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:00:55 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:07:30 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:07:45 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp:819:17: warning: "/*" within comment [-Wcomment]
+                 /*float temp = strtof(token.c_str(),0);
+                 ^
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:803:21: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+         char* str = "15:18:13";
+                     ^
+hello_world.cpp:813:17: error: redeclaration of 'int c'
+             int c = 0;
+                 ^
+hello_world.cpp:804:19: note: 'int c' previously declared here
+         int a, b, c;
+                   ^
+hello_world.cpp:807:15: warning: unused variable 'p' [-Wunused-variable]
+         Point p;
+               ^
+hello_world.cpp:811:17: warning: unused variable 'pos' [-Wunused-variable]
+             int pos = 0;
+                 ^
+make: *** [obj/default/hello_world.o] Error 1
+16:08:00 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp:819:17: warning: "/*" within comment [-Wcomment]
+                 /*float temp = strtof(token.c_str(),0);
+                 ^
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:803:21: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+         char* str = "15:18:13";
+                     ^
+hello_world.cpp:813:17: error: redeclaration of 'int c'
+             int c = 0;
+                 ^
+hello_world.cpp:804:19: note: 'int c' previously declared here
+         int a, b, c;
+                   ^
+hello_world.cpp:807:15: warning: unused variable 'p' [-Wunused-variable]
+         Point p;
+               ^
+hello_world.cpp:811:17: warning: unused variable 'pos' [-Wunused-variable]
+             int pos = 0;
+                 ^
+make: *** [obj/default/hello_world.o] Error 1
+16:08:05 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp:819:17: warning: "/*" within comment [-Wcomment]
+                 /*float temp = strtof(token.c_str(),0);
+                 ^
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:803:21: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+         char* str = "15:18:13";
+                     ^
+hello_world.cpp:807:15: warning: unused variable 'p' [-Wunused-variable]
+         Point p;
+               ^
+hello_world.cpp:811:17: warning: unused variable 'pos' [-Wunused-variable]
+             int pos = 0;
+                 ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1011 KBytes program size (code + initialized data).
+Info:                 64516 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+16:12:18 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:12:37 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp:820:17: warning: "/*" within comment [-Wcomment]
+                 /*float temp = strtof(token.c_str(),0);
+                 ^
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:808:15: warning: unused variable 'p' [-Wunused-variable]
+         Point p;
+               ^
+hello_world.cpp:812:17: warning: unused variable 'pos' [-Wunused-variable]
+             int pos = 0;
+                 ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1011 KBytes program size (code + initialized data).
+Info:                 64516 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+16:18:10 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:19:04 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp:824:17: warning: "/*" within comment [-Wcomment]
+                 /*float temp = strtof(token.c_str(),0);
+                 ^
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:812:15: warning: unused variable 'p' [-Wunused-variable]
+         Point p;
+               ^
+hello_world.cpp:816:17: warning: unused variable 'pos' [-Wunused-variable]
+             int pos = 0;
+                 ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1011 KBytes program size (code + initialized data).
+Info:                 64516 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+16:29:50 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:29:57 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp:860:17: warning: "/*" within comment [-Wcomment]
+                 /*float temp = strtof(token.c_str(),0);
+                 ^
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:803:15: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+         Point p;
+               ^
+hello_world.cpp:852:17: warning: unused variable 'pos' [-Wunused-variable]
+             int pos = 0;
+                 ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1011 KBytes program size (code + initialized data).
+Info:                 64516 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+16:31:55 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:31:58 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp:860:17: warning: "/*" within comment [-Wcomment]
+                 /*float temp = strtof(token.c_str(),0);
+                 ^
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:815:29: error: cannot convert 'char*' to 'double' in assignment
+                       p.s2_r= token;
+                             ^
+hello_world.cpp:819:27: error: cannot convert 'char*' to 'double' in assignment
+                     p.s3_r=token;
+                           ^
+hello_world.cpp:823:27: error: cannot convert 'char*' to 'double' in assignment
+                     p.s4_r= token;
+                           ^
+hello_world.cpp:827:27: error: cannot convert 'char*' to 'double' in assignment
+                     p.s5_r= token;
+                           ^
+hello_world.cpp:831:27: error: cannot convert 'char*' to 'double' in assignment
+                     p.s6_r= token;
+                           ^
+hello_world.cpp:835:27: error: cannot convert 'char*' to 'double' in assignment
+                     p.s7_r= token;
+                           ^
+hello_world.cpp:839:27: error: cannot convert 'char*' to 'double' in assignment
+                     p.s8_r= token;
+                           ^
+hello_world.cpp:852:17: warning: unused variable 'pos' [-Wunused-variable]
+             int pos = 0;
+                 ^
+make: *** [obj/default/hello_world.o] Error 1
+16:32:40 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp:860:17: warning: "/*" within comment [-Wcomment]
+                 /*float temp = strtof(token.c_str(),0);
+                 ^
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:803:15: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+         Point p;
+               ^
+hello_world.cpp:852:17: warning: unused variable 'pos' [-Wunused-variable]
+             int pos = 0;
+                 ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1011 KBytes program size (code + initialized data).
+Info:                 64516 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+16:32:58 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:34:58 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:35:07 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp:860:17: warning: "/*" within comment [-Wcomment]
+                 /*float temp = strtof(token.c_str(),0);
+                 ^
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:852:17: warning: unused variable 'pos' [-Wunused-variable]
+             int pos = 0;
+                 ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1011 KBytes program size (code + initialized data).
+Info:                 64516 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+16:38:10 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:38:13 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:803:15: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+         Point p;
+               ^
+hello_world.cpp:850:17: warning: unused variable 'k' [-Wunused-variable]
+             int k = 11;
+                 ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1011 KBytes program size (code + initialized data).
+Info:                 64516 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+16:41:55 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:42:00 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:849:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+            printf("%d",p.s1_r);
+                              ^
+hello_world.cpp:849:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+hello_world.cpp:850:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+            printf("%d",p.s2_r);
+                              ^
+hello_world.cpp:850:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+hello_world.cpp:851:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+            printf("%d",p.s3_r);
+                              ^
+hello_world.cpp:851:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+hello_world.cpp:852:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+            printf("%d",p.s4_r);
+                              ^
+hello_world.cpp:852:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+hello_world.cpp:853:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+            printf("%d",p.s5_r);
+                              ^
+hello_world.cpp:853:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+hello_world.cpp:854:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+            printf("%d",p.s6_r);
+                              ^
+hello_world.cpp:854:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+hello_world.cpp:855:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+            printf("%d",p.s7_r);
+                              ^
+hello_world.cpp:855:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+hello_world.cpp:856:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+            printf("%d",p.s8_r);
+                              ^
+hello_world.cpp:856:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+hello_world.cpp:858:17: warning: unused variable 'k' [-Wunused-variable]
+             int k = 11;
+                 ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1012 KBytes program size (code + initialized data).
+Info:                 64516 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+16:44:46 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:44:51 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:858:17: warning: unused variable 'k' [-Wunused-variable]
+             int k = 11;
+                 ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1012 KBytes program size (code + initialized data).
+Info:                 64516 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+16:47:25 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:47:30 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:849:34: warning: too many arguments for format [-Wformat-extra-args]
+            printf("%f",p.s1_r," ");
+                                  ^
+hello_world.cpp:849:34: warning: too many arguments for format [-Wformat-extra-args]
+hello_world.cpp:850:34: warning: too many arguments for format [-Wformat-extra-args]
+            printf("%f",p.s2_r," ");
+                                  ^
+hello_world.cpp:850:34: warning: too many arguments for format [-Wformat-extra-args]
+hello_world.cpp:851:34: warning: too many arguments for format [-Wformat-extra-args]
+            printf("%f",p.s3_r," ");
+                                  ^
+hello_world.cpp:851:34: warning: too many arguments for format [-Wformat-extra-args]
+hello_world.cpp:852:34: warning: too many arguments for format [-Wformat-extra-args]
+            printf("%f",p.s4_r," ");
+                                  ^
+hello_world.cpp:852:34: warning: too many arguments for format [-Wformat-extra-args]
+hello_world.cpp:853:34: warning: too many arguments for format [-Wformat-extra-args]
+            printf("%f",p.s5_r," ");
+                                  ^
+hello_world.cpp:853:34: warning: too many arguments for format [-Wformat-extra-args]
+hello_world.cpp:854:34: warning: too many arguments for format [-Wformat-extra-args]
+            printf("%f",p.s6_r," ");
+                                  ^
+hello_world.cpp:854:34: warning: too many arguments for format [-Wformat-extra-args]
+hello_world.cpp:855:34: warning: too many arguments for format [-Wformat-extra-args]
+            printf("%f",p.s7_r," ");
+                                  ^
+hello_world.cpp:855:34: warning: too many arguments for format [-Wformat-extra-args]
+hello_world.cpp:856:34: warning: too many arguments for format [-Wformat-extra-args]
+            printf("%f",p.s8_r," ");
+                                  ^
+hello_world.cpp:856:34: warning: too many arguments for format [-Wformat-extra-args]
+hello_world.cpp:858:17: warning: unused variable 'k' [-Wunused-variable]
+             int k = 11;
+                 ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1012 KBytes program size (code + initialized data).
+Info:                 64516 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+16:50:09 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:50:11 **** Build of configuration Nios II for project pruebaMYO_bsp ****
+make all 
+Command canceled
+16:51:35 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:51:42 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+hello_world.cpp: In function 'int main()':
+hello_world.cpp:865:17: warning: unused variable 'k' [-Wunused-variable]
+             int k = 11;
+                 ^
+hello_world.cpp:714:8: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  Point arr[n];
+        ^
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1012 KBytes program size (code + initialized data).
+Info:                 64516 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+16:56:10 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+16:56:14 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 1012 KBytes program size (code + initialized data).
+Info:                 64516 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+17:04:23 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+17:04:27 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+Info: Compiling hello_world.cpp to obj/default/hello_world.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../pruebaMYO_bsp//HAL/inc -I../pruebaMYO_bsp/ -I../pruebaMYO_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED      -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.cpp
+Info: Linking pruebaMYO.elf
+nios2-elf-g++  -T'../pruebaMYO_bsp//linker.x' -msys-crt0='../pruebaMYO_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../pruebaMYO_bsp/   -Wl,-Map=pruebaMYO.map   -O0 -g -Wall -std=c++11  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o pruebaMYO.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert pruebaMYO.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x8001040 --timestamp 1547060908 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1" --jdi ../..//output_files/ACTIVIDAD1.jdi --sopcinfo C:/Users/Estudiante/Desktop/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO_bsp/../../SISTEMA.sopcinfo
+Info: (pruebaMYO.elf) 958 KBytes program size (code + initialized data).
+Info:                 64569 KBytes free for stack + heap.
+Info: Creating pruebaMYO.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source pruebaMYO.elf >pruebaMYO.objdump
+[pruebaMYO build complete]
+17:21:14 **** Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]
+17:21:16 **** Incremental Build of configuration Nios II for project pruebaMYO ****
+make all 
+Info: Building ../pruebaMYO_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pruebaMYO_bsp/
+[BSP build complete]
+[pruebaMYO build complete]

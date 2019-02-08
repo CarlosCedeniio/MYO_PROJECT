@@ -1,0 +1,62 @@
+#include <iostream>
+using namespace std;
+
+class Animal{
+private: //Atributos
+	int edad;
+	string nombre;
+	float altura;
+public: //Metodos
+	Animal();//Constructor inicializado con valores de cero.
+	Animal(int,string,float);//Constructor inicializado con valores no nulos.
+	int getEdad();//Función que obtiene la edad de la persona.
+	string getNombre();//Función que obtiene el nombre de la persona.
+	float getAltura();//Función que obtiene la altura de la persona.
+	void setEdad(int);//Función que establece la edad de la persona.
+	void setNombre(string);//Función que estable el nombre de la persona.
+	void setAltura(float);//Función que establece la altura de la persona.
+	void imprimir_Persona();//Función que imprime los datos de la persona.
+};
+Animal::Animal(){//Constructor, nos sirve para inicializar los atributos
+	edad=0;
+	nombre="";
+	altura=0.00;
+}
+Animal::Animal(int _edad, string _nombre, float _altura){//Constructor, nos sirve para inicializar los atributos
+	edad=_edad;
+	nombre=_nombre;
+	altura=_altura;
+}
+int Animal::getEdad() { return edad;}
+string Animal::getNombre() { return nombre;}
+float Animal::getAltura() { return altura;}
+void Animal::setEdad(int _edad) { edad = _edad;}
+void Animal::setNombre(string _nombre) { nombre = _nombre;}
+void Animal::setAltura(float _altura) { altura = _altura;}
+void Animal::imprimir_Persona(){
+	cout<<"La persona "<<nombre<<" tiene "<<edad<<" años de edad con una altura de "<<altura<<" metros"<<endl;
+}
+
+int main()
+{
+	while(1){
+		int age=0;string name="";float height=0.00;
+		Animal p1= Animal();
+		cout << "**************  Ingrese información de usted  **************" << endl;
+		cout << "Ingrese su primer nombre: ";
+		cin >> name;
+		cout << "Ingrese su edad: ";
+		cin >> age;
+		cout << "Ingrese su altura: ";
+		cin >> height;
+		cout << endl;
+		p1.setEdad(age);
+		p1.setNombre(name);
+		p1.setAltura(height);
+		p1.imprimir_Persona();
+		for(int i=0;i<8;i++){
+			cout << endl;
+		}
+	}
+	return 0;
+}

@@ -1,0 +1,1814 @@
+!SESSION 2019-01-17 13:31:19.003 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -data C:\Users\carlo\Desktop\ULTIMATEMYO\MYO\ACTIVIDAD1\ACTIVIDAD1\SISTEMA3 -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-01-17 13:31:58.316
+!MESSAGE Indexed 'pruebaMYO_bsp' (88 sources, 153 headers) in 2,58 sec: 5.366 declarations; 9.001 references; 0 unresolved inclusions; 2 syntax errors; 8 unresolved names (0,06%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-01-17 13:32:07.237
+!MESSAGE Indexed 'pruebaMYO' (1 sources, 203 headers) in 8,91 sec: 24.126 declarations; 46.289 references; 2 unresolved inclusions; 0 syntax errors; 25 unresolved names (0,04%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 13:33:39.021
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x8001040 --id=0x0 --timestamp=1547060908]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 13:33:41.257
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x8001040 --id=0x0 --timestamp=1547060908 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+!SESSION 2019-01-17 17:09:09.911 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-01-17 17:12:52.790
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 17:16:39.545
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x8001040 --id=0x0 --timestamp=1547060908]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 17:16:42.359
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x8001040 --id=0x0 --timestamp=1547060908 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 17:19:48.360
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 17:19:48.823
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x8001040 --id=0x0 --timestamp=1547060908]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 17:19:51.043
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x8001040 --id=0x0 --timestamp=1547060908 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 17:22:01.058
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 17:22:01.594
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x8001040 --id=0x0 --timestamp=1547060908]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 17:22:03.802
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x8001040 --id=0x0 --timestamp=1547060908 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY org.eclipse.jface 2 0 2019-01-17 17:26:15.953
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 17:26:15.953
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62910d16,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62910d16,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 17:26:15.953
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3cc3914a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3cc3914a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 17:26:15.953
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d066f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d066f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 17:26:15.953
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c39ec34,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c39ec34,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 17:26:15.953
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@362aa318,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@362aa318,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 17:26:15.953
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16433d56,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16433d56,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 17:26:15.953
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ec53f8f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ec53f8f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 17:26:15.953
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d0e242f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d0e242f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 17:26:15.953
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@edf68f5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@edf68f5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 17:32:23.116
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 17:32:23.559
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x8001040 --id=0x0 --timestamp=1547060908]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 17:32:25.697
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x8001040 --id=0x0 --timestamp=1547060908 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:03:16.712
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x8001040 --id=0x0 --timestamp=1547060908]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:03:19.123
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x8001040 --id=0x0 --timestamp=1547060908 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:04:30.815
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:04:31.294
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x8001040 --id=0x0 --timestamp=1547060908]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:04:33.416
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x8001040 --id=0x0 --timestamp=1547060908 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:12:50.833
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:12:51.456
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x8001040 --id=0x0 --timestamp=1547060908]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:12:53.834
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x8001040 --id=0x0 --timestamp=1547060908 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:19:20.378
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:19:21.322
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x8001040 --id=0x0 --timestamp=1547060908]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:19:23.493
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x8001040 --id=0x0 --timestamp=1547060908 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:21:18.390
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:21:18.862
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001050]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:21:20.772
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001050 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+!SESSION 2019-01-17 18:30:22.108 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-01-17 18:30:26.848
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:31:03.804
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:31:05.717
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001060 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:37:30.492
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:37:30.992
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:37:32.934
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001060 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:55:56.807
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:55:57.298
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001060]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 18:55:59.214
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001060 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+!SESSION 2019-01-17 18:58:31.303 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-01-17 18:58:37.624
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:09:46.283
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001050]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:09:48.184
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001050 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:16:31.236
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:16:31.710
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001050]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:16:33.670
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001050 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:16:55.991
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:16:56.455
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001050]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:16:58.320
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001050 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:23:32.232
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:23:32.767
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001050]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:23:34.749
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001050 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY org.eclipse.jface 2 0 2019-01-17 19:33:26.281
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 19:33:26.281
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66d43e76,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66d43e76,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 19:33:26.281
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c4c595e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c4c595e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 19:33:26.281
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@44572f11,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@44572f11,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 19:33:26.281
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a2577cd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a2577cd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 19:33:26.281
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d45c571,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d45c571,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 19:33:26.281
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@439df92e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@439df92e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 19:33:26.281
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3ecf69eb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3ecf69eb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 19:33:26.281
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4fa5fae0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4fa5fae0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-17 19:33:26.281
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c78d028,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c78d028,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:35:54.168
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001050]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:35:56.062
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001050 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:37:20.430
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:37:20.893
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001050]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:37:22.806
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001050 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:41:14.169
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001050]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:41:16.056
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001050 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:48:16.946
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:48:17.467
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001050]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:48:19.419
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001050 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:55:40.575
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:55:41.056
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001050]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:55:42.934
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001050 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:58:27.431
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:58:27.889
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 19:58:29.778
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:13:19.205
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:13:19.728
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:13:21.675
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:14:51.863
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:14:52.311
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:14:54.197
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:16:02.341
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:16:02.803
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:16:04.695
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:17:31.173
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:17:31.629
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:17:33.557
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:22:17.421
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:22:17.873
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:22:19.813
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:34:13.650
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:34:15.522
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:34:34.377
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:34:34.839
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:34:36.721
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:36:58.530
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:36:58.988
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:37:00.879
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:39:35.617
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:39:36.094
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:39:37.968
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:55:30.068
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:55:30.564
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 20:55:32.490
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:14:04.616
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:14:05.186
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:14:07.443
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:25:13.692
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:25:15.647
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:26:07.954
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:26:08.421
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:26:10.334
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:28:53.478
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:28:53.962
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:28:55.922
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:30:17.874
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:30:18.351
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:30:20.281
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:38:25.434
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:38:25.967
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-17 21:38:27.896
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+!SESSION 2019-01-18 09:40:08.498 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.jface 2 0 2019-01-18 09:40:51.410
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-18 09:40:51.410
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6dfebd2a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6dfebd2a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-18 09:40:51.410
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9dbb1d9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9dbb1d9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-18 09:40:51.410
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1bb0fa38,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1bb0fa38,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-18 09:40:51.410
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58e7f930,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58e7f930,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-18 09:40:51.410
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@406808eb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@406808eb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-18 09:40:51.410
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14e93c46,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14e93c46,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-18 09:40:51.410
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@89465d9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@89465d9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-18 09:40:51.410
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fdd3382,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fdd3382,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-18 09:40:51.410
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f7241c2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f7241c2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 09:46:12.460
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 09:46:14.947
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 09:48:48.522
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 09:48:49.046
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 09:48:50.987
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 09:49:33.439
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 09:49:33.893
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 09:49:35.801
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 10:23:19.317
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 10:23:21.287
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 10:41:32.751
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 10:41:33.230
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 10:41:35.169
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 11:15:59.631
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 11:16:00.127
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 11:16:02.079
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 11:55:10.255
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 11:55:10.748
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 11:55:12.693
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 12:12:48.755
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 12:12:49.190
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 12:12:51.153
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 13:38:37.092
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 13:38:41.154
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 13:41:01.681
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 13:41:02.643
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 13:41:05.949
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 14:43:35.232
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 14:43:36.124
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-18 14:43:39.068
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+!SESSION 2019-01-21 15:26:37.586 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:41:25.486
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:41:30.290
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:42:38.516
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:42:40.004
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:42:43.961
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:48:57.297
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:48:58.533
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:49:03.165
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:50:04.806
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:50:06.146
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:50:11.691
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:51:22.694
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:51:24.190
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:51:29.001
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:52:15.120
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:52:16.343
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:52:20.656
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:54:28.983
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:54:30.450
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:54:34.451
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:55:34.438
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:55:35.576
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:55:39.221
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:56:52.507
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:56:53.746
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:56:57.557
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:57:34.825
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:57:35.847
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:57:39.528
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:58:52.003
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:58:53.172
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 15:58:56.920
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:18:21.532
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:18:22.957
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:18:29.416
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:20:01.791
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:20:02.825
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:20:06.453
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:21:40.379
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:21:41.569
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:21:45.436
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:23:18.165
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:23:19.193
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:23:22.798
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:25:55.361
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:25:56.479
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:26:00.297
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:29:46.316
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:29:47.391
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:29:50.889
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:32:23.212
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:32:24.360
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:32:28.219
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:35:07.541
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:35:08.682
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:35:12.303
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:36:42.474
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:36:43.693
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:36:47.347
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:37:32.776
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:37:33.798
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:37:37.417
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:41:15.092
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:41:16.285
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:41:20.117
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:42:54.736
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:42:55.818
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:42:59.613
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:44:15.379
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:44:16.584
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:44:20.384
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:46:10.723
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:46:11.828
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:46:15.429
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:47:19.350
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:47:20.586
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:47:24.317
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:53:34.901
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:53:36.240
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 16:53:41.061
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:11:22.377
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:11:23.650
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:11:27.632
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:17:08.594
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:17:09.900
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:17:13.586
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:22:24.618
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:22:25.712
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:22:29.641
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:27:51.699
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:27:52.898
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:27:56.551
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY org.eclipse.jface 2 0 2019-01-21 17:41:16.442
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-21 17:41:16.443
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3aa8a17,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3aa8a17,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-21 17:41:16.443
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@734d280d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@734d280d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-21 17:41:16.443
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6518939b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6518939b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-21 17:41:16.443
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@38ef725f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@38ef725f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-21 17:41:16.443
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fc2bd67,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fc2bd67,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-21 17:41:16.443
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7555edd2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7555edd2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-21 17:41:16.443
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54f02ca8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54f02ca8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-21 17:41:16.443
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17ced1e3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17ced1e3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-21 17:41:16.443
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d1d7ff8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d1d7ff8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:45:48.951
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:45:50.200
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:45:53.785
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:49:13.188
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:49:14.224
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:49:17.771
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:51:28.350
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:51:29.599
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-21 17:51:33.615
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+!SESSION 2019-01-29 12:00:31.851 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:05:38.962
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:05:41.071
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:08:22.969
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:08:23.477
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:08:25.392
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:10:56.259
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:10:56.714
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:10:58.616
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:14:46.512
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:14:46.952
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:14:48.787
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:23:27.800
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:23:28.289
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:23:30.212
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:26:59.736
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:27:00.193
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:27:02.076
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:32:29.783
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:32:30.211
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:32:32.067
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:45:03.488
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:45:05.413
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:48:55.184
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:48:55.664
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:48:57.563
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:49:31.609
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:49:32.085
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:49:33.956
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:50:39.142
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:50:39.584
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:50:41.514
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:58:12.759
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:58:13.244
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 12:58:15.187
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:02:12.636
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:02:13.107
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:02:15.036
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:05:25.311
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:05:25.803
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:05:27.706
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:08:54.552
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:08:55.005
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:08:56.886
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:11:56.839
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:11:57.293
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:11:59.183
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:17:03.433
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:17:03.915
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:17:05.824
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:19:22.366
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:19:22.815
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:19:24.724
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:26:15.076
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:26:15.539
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-29 13:26:17.408
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+!SESSION 2019-02-05 09:51:26.925 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 09:56:09.036
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 09:56:11.022
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+!SESSION 2019-02-05 10:01:27.104 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-02-05 10:01:31.333
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 10:01:57.589
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 10:01:59.496
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+!SESSION 2019-02-05 10:09:59.465 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-02-05 10:10:02.737
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 10:19:43.131
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 10:19:45.039
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 10:26:08.113
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 10:26:09.984
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+!SESSION 2019-02-05 11:21:50.201 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-02-05 11:21:54.421
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 11:22:24.098
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 11:22:26.058
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 11:25:55.630
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 11:25:57.623
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+!SESSION 2019-02-05 11:27:46.450 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-02-05 11:27:54.054
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 11:28:22.273
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 11:28:24.192
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 11:48:00.462
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 11:48:02.387
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 11:52:54.799
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-05 11:52:56.743
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+!SESSION 2019-02-07 12:03:33.087 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.jface 2 0 2019-02-07 12:42:27.840
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-07 12:42:27.840
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c8ad614,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c8ad614,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.macroExpansionHoverScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-07 12:42:27.840
+!MESSAGE A conflict occurred for ALT+ARROW_RIGHT:
+Binding(ALT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.hover.forwardMacroExpansion,Forward,
+		Step forward in macro expansions,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f941f5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.macroExpansionHoverScope,,,system)
+Binding(ALT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.forwardHistory,Forward History,
+		Move forward in the editor navigation history,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11c093dd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-07 12:42:27.840
+!MESSAGE A conflict occurred for ALT+ARROW_LEFT:
+Binding(ALT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.hover.backwardMacroExpansion,Back,
+		Step backward in macro expansions,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b7edb51,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.macroExpansionHoverScope,,,system)
+Binding(ALT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.backwardHistory,Backward History,
+		Move backward in the editor navigation history,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69bcbb8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2019-02-07 15:35:40.246 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-07 15:39:55.310
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-07 15:39:57.426
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-07 15:42:34.586
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-07 15:42:36.455
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-07 15:46:31.718
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-07 15:46:33.603
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-07 15:50:26.136
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-07 15:50:28.035
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-07 15:51:35.470
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-07 15:51:37.325
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-07 15:55:09.345
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-02-07 15:55:11.228
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001040 /cygdrive/c/Users/carlo/Desktop/ULTIMATEMYO/MYO/ACTIVIDAD1/ACTIVIDAD1/software/pruebaMYO/pruebaMYO.elf]
